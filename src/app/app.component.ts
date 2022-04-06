@@ -7,7 +7,7 @@ import * as d3 from 'd3';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  gaugemap:any;
+  gaugemap: any = {};
   constructor() {}
   ngOnInit() {
     this.draw();
